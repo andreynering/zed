@@ -14,7 +14,7 @@
   "languages": {
     "Go": {
       "formatter": {
-        "external": { "command": "gofumpt", "arguments": ["{buffer_path}"] }
+        "external": { "command": "gofumpt" }
       }
     }
   }
