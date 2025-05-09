@@ -10,5 +10,12 @@
   },
   "features": {
     "edit_prediction_provider": "copilot"
+  },
+  "languages": {
+    "Go": {
+      "formatter": {
+        "external": { "command": "gofumpt", "arguments": ["{buffer_path}"] }
+      }
+    }
   }
 }
