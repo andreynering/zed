@@ -12,12 +12,27 @@
   "features": {
     "edit_prediction_provider": "copilot"
   },
+  "lsp": {
+    "golangci-lint": {
+      "initialization_options": {
+        "command": [
+          "golangci-lint",
+          "run",
+          "--output.json.path",
+          "stdout",
+          "--issues-exit-code=1",
+          "--show-stats=false"
+        ]
+      }
+    }
+  },
   "languages": {
     "Go": {
       "tab_size": 8,
       "formatter": {
         "external": { "command": "gofumpt" }
-      }
+      },
+      "language_servers": ["gopls", "golangci-lint"]
     }
   }
 }
