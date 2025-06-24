@@ -28,7 +28,7 @@
   },
   "languages": {
     "Go": {
-      "tab_size": 8,
+      "tab_size": 4,
       "formatter": {
         "external": { "command": "gofumpt" }
       },
