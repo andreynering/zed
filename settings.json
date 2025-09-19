@@ -6,8 +6,8 @@
   "wrap_guides": [80, 120],
   "theme": {
     "mode": "system",
-    "light": "One Light",
-    "dark": "Catppuccin Frappé"
+    "light": "Dracula Light (Alucard)",
+    "dark": "Dracula"
   },
   "features": {
     "edit_prediction_provider": "copilot"
